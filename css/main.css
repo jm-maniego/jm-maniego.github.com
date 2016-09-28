@@ -37,6 +37,8 @@ body {
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;
+  margin: 0 auto;
+  display: block;
 }
 
 .move-center {
@@ -56,12 +58,6 @@ body {
   padding-top: 2rem;
 }
 
-@media (min-width: 40rem) {
-  .text {
-    line-height: 1em;
-  }
-}
-
 ul {
   list-style: none;
   padding-left: 0;
@@ -78,4 +74,13 @@ ul.contact a {
 
 .skillset {
   line-height: 2rem;
+}
+
+@media (min-width: 40rem) {
+  .text {
+    line-height: 1em;
+  }
+  #profile-pic {
+    display: inline;
+  }
 }
