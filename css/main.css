@@ -10,6 +10,10 @@ html, body {
 body {
   background-color: #fdfdfd;
   color: #282828;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 #hero-section {
@@ -68,7 +72,8 @@ ul.contact li {
   margin-bottom: .5rem;
 }
 
-ul.contact a {
+
+a {
   color: #282828;
 }
 
