@@ -3,10 +3,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   background-color: #fdfdfd;
   color: #282828;
@@ -14,6 +10,7 @@ body {
   font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
   text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  padding-bottom: 70px;
 }
 
 #hero-section {
@@ -68,12 +65,12 @@ ul {
 }
 
 ul.contact li {
-  letter-spacing: 3px;
   margin-bottom: .5rem;
 }
 
 
 a {
+  letter-spacing: 3px;
   color: #282828;
 }
 
