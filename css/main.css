@@ -90,3 +90,9 @@ a {
     display: inline;
   }
 }
+
+.btn {
+  background-color: white;
+  border: 1px solid #282828;
+  padding: 2px 10px;
+}
