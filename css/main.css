@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'David Libre', serif;
   letter-spacing: 3px;
+  margin: 0;
 }
 
 body {
@@ -53,6 +54,8 @@ body {
   padding-bottom: .5rem;
   padding-top: .5rem;
   line-height: 1.5em;
+  margin: .4rem 0;
+  display: inline-block;
 }
 
 .content {
@@ -70,7 +73,7 @@ ul.contact li {
 
 
 a {
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   color: #282828;
 }
 
@@ -95,4 +98,26 @@ a {
   background-color: white;
   border: 1px solid #282828;
   padding: 2px 10px;
+}
+
+.content__section {
+  margin-bottom: 3rem;
+}
+
+.project-list > li {
+  margin-bottom: 1rem;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: auto;
+
+  border-top: 20px solid black;
+}
+
+.text-muted {
+  color: #6c757d!important;
 }
