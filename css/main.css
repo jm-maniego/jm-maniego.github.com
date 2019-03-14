@@ -103,6 +103,7 @@ a {
   border: 3px solid #282828;
   padding: 4px 12px;
   box-shadow: 6px 6px 0px 0px #282828;
+  text-decoration: none;
 }
 
 .content__section {
